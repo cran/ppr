@@ -1,0 +1,28 @@
+Projection Pursuit Regression
+=============================
+
+A more flexible formula-based replacement for ppreg.
+
+	ppr
+	print.ppr
+	summary.ppr
+	predict.ppr
+	plot.ppr
+
+B.D. Ripley (ripley@stats.ox.ac.uk)
+
+The underlying code, like that of ppreg, is J.H. Friedman's SMART 
+program. Unlike ppreg, smoothing can be done by smoothing splines.
+
+
+Also, kernel smoothing, Friedman's `super smoother' and smoothing splines:
+
+	ksmooth
+	supsmu
+	smooth.spline
+	predict.smooth.spline
+	print.smooth.spline
+
+
+The code for smoothing splines comes from gamfit by T. Hastie and 
+R. Tibshirani, and supsmu from SMART.

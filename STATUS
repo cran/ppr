@@ -1,0 +1,12 @@
+This is a complete port of the S package ppr which provides
+a formula-based replacement for ppreg(). It has been 
+converted to double precision, and as the underlying Fortran code
+is very sensitive to rounding, will give different answers.
+
+98/08/23: the smoothing spline code will now work. As it was almost
+completely needed here, I have added a port of smooth.spline using the
+public-domain `gamfit' code of T. Hastie and R. Tibshirani
+(statlib/general/gamfit).
+
+supsmu is available as a standalone function.
+
